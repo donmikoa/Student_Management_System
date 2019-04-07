@@ -8,3 +8,4 @@ def manageStudent():
 
     x = "#" * 30
     y = "=" * 28
+    global bye
