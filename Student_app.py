@@ -9,4 +9,4 @@ def manageStudent():
     x = "#" * 30
     y = "=" * 28
     global bye #making "bye" as a super Global Variable
-    bye = "\n {} #\n# ==> Brought To You "
+    bye = "\n {} #\n# ==> Brought To You By <=== #\n# ===> Miikoa Inc. <=== #\n#"
