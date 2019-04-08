@@ -13,7 +13,7 @@ def manageStudent():
     # The "Bye" is printing the Goodbye Message
 
     # Printing the Welcome Message And Options For The Program
-    print ("""
+    print("""
     ------------------------------------------------------
  |======================================================| 
  |======== Welcome To Student Management System	========|
@@ -21,5 +21,10 @@ def manageStudent():
   -----------------Powered by Mikoa Inc.----------------
   
   Enter 1 : To View Student's List
+  Enter 2 : TO Add New Student
+  Enter 3 : To Search Student
+  Enter 4 : To Remove Student
   
-  """)
+        """)
+
+    try:
