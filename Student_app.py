@@ -9,4 +9,6 @@ def manageStudent():
     x = "#" * 30
     y = "=" * 28
     global bye #making "bye" as a super Global Variable
-    bye = "\n {} #\n# ==> Brought To You By <=== #\n# ===> Miikoa Inc. <=== #\n#"
+    bye = "\n {} #\n# ==> Brought To You By <=== #\n# ===> Miikoa Inc. <=== #\n# {}".format(x, y, y, x)
+    # The "Bye" is printing the Goodbye Message
+    
