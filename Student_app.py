@@ -28,4 +28,4 @@ def manageStudent():
         """)
 
     try: # Creating Exceptions for Avoiding errors
-        userInput = int(input("Pl"))
+        userInput = int(input("Please Select one of the Options Above"))
