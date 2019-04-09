@@ -27,4 +27,5 @@ def manageStudent():
   
         """)
 
-    try:
+    try: # Creating Exceptions for Avoiding errors
+        userInput = int(input("Pl"))
