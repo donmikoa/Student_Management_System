@@ -2,7 +2,7 @@ import os
 import platform
 
 global listStd #Created listStd as a Global Variable
-listStd = ["Michael", "Daniel", "Tope", "Deji", "Joseph"]  # List Of Students
+stdList = ["Michael", "Daniel", "Tope", "Deji", "Joseph"]  # Student List
 
 def manageStudent():
 
@@ -27,11 +27,15 @@ def manageStudent():
   
         """)
 
-    try: # Creating Exceptions for Avoiding errors
-        #Take input from the user
+    try:  # Creating Exceptions for Avoiding errors
+        # Take input From The User
         userInput = int(input("Please Select one of the Options Above"))
     except ValueError:
         exit("\n That's not a Number")  # Error Message
+    else:
+        print("\n")  # Print New Line
+
+
 
 
 
