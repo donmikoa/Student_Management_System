@@ -9,7 +9,7 @@ def manageStudent():
     x = "#" * 30
     y = "=" * 28
     global bye # making "bye" as a super Global Variable
-    bye = "\n {} #\n# ==> Brought To You By <=== #\n# ===> Mikoa Inc. <=== #\n# {}".format(x, y, y, x)
+    bye = "\n {} #\n# ==> Built by <=== #\n# ===> Michael Iyaomolere <=== #\n# {}".format(x, y, y, x)
     # The "Bye" is printing the Goodbye Message
 
     # Printing the Welcome Message And Options For The Program
@@ -28,4 +28,11 @@ def manageStudent():
         """)
 
     try: # Creating Exceptions for Avoiding errors
+        #Take input from the user
         userInput = int(input("Please Select one of the Options Above"))
+    except ValueError:
+        exit("\n That's not a Number")  # Error Message
+
+
+
+
