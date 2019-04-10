@@ -4,7 +4,7 @@ import platform
 global stdList #Created stdList as a Global Variable
 stdList = ["Michael", "Daniel", "Tope", "Deji", "Joseph"]  # Student List
 
-def manageStudent():
+def application():
 
     x = "#" * 30
     y = "=" * 28
@@ -40,6 +40,7 @@ def manageStudent():
         print ("Student's List\n")
         for students in stdList:
             print("=>{}".format(students))
+
 
 
 
