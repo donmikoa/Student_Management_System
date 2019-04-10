@@ -14,11 +14,11 @@ def manageStudent():
 
     # Printing the Welcome Message And Options For The Program
     print("""
-    ------------------------------------------------------
+  ------------------------------------------------------
  |======================================================| 
  |======== Welcome To Student Management System	========|
  |======================================================|
-  -----------------Powered by Mikoa Inc.----------------
+  -------------Created by Michael Iyaomolere------------
   
   Enter 1 : To View Student's List
   Enter 2 : TO Add New Student
