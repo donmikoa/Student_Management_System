@@ -9,7 +9,7 @@ def application():
     x = "#" * 30
     y = "=" * 28
     global bye # making "bye" as a super Global Variable
-    bye = "\n {} #\n# ==> Built by <=== #\n# ===> Michael Iyaomolere <=== #\n# {}".format(x, y, y, x)
+    bye = "\n {} #\n# ==> Built by <=== #\n# ===> Michael Iyaomolere <=== #\n# {} #\n{}".format(x, y, y, x)
     # The "Bye" is printing the Goodbye Message
 
     # Printing the Welcome Message And Options For The Program
@@ -53,6 +53,8 @@ def application():
 
     elif userInput == 3:  # Input To Search Students Present In The List
         srcStd = input("Enter Student Name To Be Searched")
+        if srcStd in stdList: # The Condition To Search For The Student
+            print("\n=> Record Found Of Student {}".format(srcStd))
 
 
 
