@@ -43,11 +43,13 @@ def application():
 
     elif userInput == 2:  # Option to add a new student to the list
         newStd = input("Enter New Student: ")
-        if newStd in stdList:  # To check if the New Student yped is already in the student list
+        if newStd in stdList:  # To check if the New Student typed is already in the student list
             print("\nThis student {} Is Already In The System".format(newStd))
         else:
             stdList.append(newStd)
             print("\n==> New Student {} Has Been Added\n".format(newStd))
+
+
 
 
 
