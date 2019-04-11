@@ -48,7 +48,7 @@ def application():
         else:
             stdList.append(newStd)
             print("\n==> New Student {} Has Been Added\n".format(newStd))
-            for
+
 
 
 
