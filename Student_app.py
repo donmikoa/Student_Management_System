@@ -48,6 +48,11 @@ def application():
         else:
             stdList.append(newStd)
             print("\n==> New Student {} Has Been Added\n".format(newStd))
+            for students in stdList:
+                print("=> {}".format(students))
+
+    elif userInput == 3:  # Input To Search Students Present In The List
+        srcStd = input("Enter Student Name To Be Searched")
 
 
 
