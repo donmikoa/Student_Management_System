@@ -41,9 +41,9 @@ def application():
         for students in stdList:
             print("=>{}".format(students))
 
-    elif userInput == 2:  # Option to add a new student to the list
+    elif userInput == 2:  # Option To Add A New Student To The List
         newStd = input("Enter New Student: ")
-        if newStd in stdList:  # To check if the New Student typed is already in the student list
+        if newStd in stdList:  # To Check Tht Presence Of The Student's Name On The List
             print("\nThis student {} Is Already In The System".format(newStd))
         else:
             stdList.append(newStd)
@@ -61,6 +61,8 @@ def application():
     elif userInput == 4: # Option To Remove A Student Name From The List
         rmStd = input("Enter Student Name To Be Removed")
         if rmStd in stdList: #To Check Tht Presence Of The Student's Name On The List
+            stdList.remove(rmStd)
+
 
 
 
