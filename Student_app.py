@@ -59,6 +59,9 @@ def application():
             print("\n=> No Record Found Of Student {}".format(srcStd))  # Error Message
 
     elif userInput == 4: # Option To Remove A Student Name From The List
+        rmStd = input("Enter Student Name To Be Removed")
+        if rmStd in stdList: #To Check Tht Presence Of The Student's Name On The List
+
 
 
 
