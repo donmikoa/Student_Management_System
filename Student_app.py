@@ -1,7 +1,7 @@
 import os
 import platform
 
-global stdList #Created stdList as a Global Variable
+global stdList  # Created stdList as a Global Variable
 stdList = ["Michael", "Daniel", "Tope", "Deji", "Joseph"]  # Student List
 
 def application():
@@ -29,17 +29,18 @@ def application():
 
     try:  # Creating Exceptions for Avoiding errors
         # Take input From The User
-        figure = int(input("Please Select one of the Options Above"))
+        userInput = int(input("Please Select one of the Options Above"))
     except ValueError:
         exit("\n That's not a Number")  # Error Message
     else:
         print("\n")  # Print New Line
 
     #  Checking What User Inputed
-    if figure == 1:
+    if userInput == 1:
         print ("Student's List\n")
         for students in stdList:
             print("=>{}".format(students))
+
 
 
 
