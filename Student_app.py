@@ -60,8 +60,15 @@ def application():
 
     elif userInput == 4: # Option To Remove A Student Name From The List
         rmStd = input("Enter Student Name To Be Removed")
-        if rmStd in stdList: #To Check Tht Presence Of The Student's Name On The List
+        if rmStd in stdList:  # To Check Tht Presence Of The Student's Name On The List
             stdList.remove(rmStd)
+            print("\n=> Student {} Successfully Deleted \n".format(rmStd))
+            for students in stdList
+                print("=> {}".format(students))
+        else:
+            print("\n=> No Record Of Student {} Fount".format(rmStd))  #Error Message
+
+
 
 
 
