@@ -63,10 +63,18 @@ def application():
         if rmStd in stdList:  # To Check Tht Presence Of The Student's Name On The List
             stdList.remove(rmStd)
             print("\n=> Student {} Successfully Deleted \n".format(rmStd))
-            for students in stdList
+            for students in stdList:
                 print("=> {}".format(students))
         else:
             print("\n=> No Record Of Student {} Fount".format(rmStd))  #Error Message
+
+    elif userInput < 1 or  userInput > 4:  # Verifying User Input
+        print("Please Enter A Valid Option")
+
+application()
+
+
+
 
 
 
