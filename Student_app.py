@@ -27,8 +27,8 @@ def application():
   
         """)
 
-    try:  # Creating Exceptions for Avoiding errors
-        # Take input From The User
+    try:  # Creating Exceptions For Avoiding errors
+        # Take Input From The User
         userInput = int(input("Please Select one of the Options Above"))
     except ValueError:
         exit("\n That's not a Number")  # Error Message
@@ -43,7 +43,7 @@ def application():
 
     elif userInput == 2:  # Option To Add A New Student To The List
         newStd = input("Enter New Student: ")
-        if newStd in stdList:  # To Check Tht Presence Of The Student's Name On The List
+        if newStd in stdList:  # To Check The Presence Of The Student's Name On The List
             print("\nThis student {} Is Already In The System".format(newStd))
         else:
             stdList.append(newStd)
