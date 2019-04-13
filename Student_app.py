@@ -1,7 +1,7 @@
 import os
 import platform
 
-global stdList  # Created stdList as a Global Variable
+global stdList  # Created stdList As A Global Variable
 stdList = ["Michael", "Daniel", "Tope", "Deji", "Joseph"]  # Student List
 
 def application():
@@ -12,7 +12,7 @@ def application():
     bye = "\n {}\n# {} #\n# ========> Built by <======== #\n# ===> Michael Iyaomolere <=== #\n# {} #\n {}".format(x, y, y, x)
     # The "Bye" is printing the Goodbye Message
 
-    # Printing the Welcome Message And Options For The Program
+    # Printing The Welcome Message And Options For The Program
     print("""
   ------------------------------------------------------
  |======================================================| 
