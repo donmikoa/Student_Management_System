@@ -8,8 +8,8 @@ def application():
 
     x = "#" * 30
     y = "=" * 28
-    global bye # making "bye" as a super Global Variable
-    bye = "\n {} #\n# ==> Built by <=== #\n# ===> Michael Iyaomolere <=== #\n# {} #\n{}".format(x, y, y, x)
+    global bye # making "bye" as A Global Variable
+    bye = "\n {}\n# {} #\n# ========> Built by <======== #\n# ===> Michael Iyaomolere <=== #\n# {} #\n {}".format(x, y, y, x)
     # The "Bye" is printing the Goodbye Message
 
     # Printing the Welcome Message And Options For The Program
@@ -71,7 +71,28 @@ def application():
     elif userInput < 1 or  userInput > 4:  # Verifying User Input
         print("Please Enter A Valid Option")
 
+
 application()
+
+
+def runApp():  # Continuously Run The App
+    runAgain = input("\nDo You Want To Access The System Again Y/N")
+    if runAgain.lower() == "y":
+        if platform.system() == "Windows":  # To Check The User Operating System To clear The screen
+            print(os.system("cls"))
+        else:
+            print(os.system("clear"))
+        application()
+        runApp()
+    else:
+        quit(bye)  # Print Goodbye Message And Exit The Program
+
+
+runApp()
+
+
+
+
 
 
 
