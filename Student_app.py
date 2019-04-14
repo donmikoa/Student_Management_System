@@ -33,7 +33,7 @@ def application():
     except ValueError:
         exit("\n That's not a Number")  # Error Message
     else:
-        print("\n")  # Print New Line
+        print("\n")  # Print In A New Line
 
     #  Checking What User Inputed
     if userInput == 1:
@@ -66,7 +66,7 @@ def application():
             for students in stdList:
                 print("=> {}".format(students))
         else:
-            print("\n=> No Record Of Student {} Fount".format(rmStd))  #Error Message
+            print("\n=> No Record Of Student {} Fount".format(rmStd))  # Error Message
 
     elif userInput < 1 or  userInput > 4:  # Verifying User Input
         print("Please Enter A Valid Option")
