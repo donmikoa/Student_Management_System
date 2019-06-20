@@ -74,8 +74,8 @@ def application():
 
 application()
 
-
 def runApp():  # Continuously Run The App
+
     runAgain = input("\nDo You Want To Access The System Again Y/N")
     if runAgain.lower() == "y":
         if platform.system() == "Windows":  # To Check The User Operating System To clear The screen
