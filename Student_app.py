@@ -68,7 +68,7 @@ def application():
         else:
             print("\n=> No Record Of Student {} Fount".format(rmStd))  # Error Message
 
-    elif userInput < 1 or  userInput > 4:  # Verifying User Input
+    elif userInput < 1 or  userInput > 4:  # Verifying The User Input
         print("Please Enter A Valid Option")
 
 
