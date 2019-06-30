@@ -75,7 +75,7 @@ def application():
 application()
 
 
-def runApp():  # Continuously Run The App
+def runApp():  # Continuously Run The Application
 
     runAgain = input("\nDo You Want To Access The System Again Y/N")
     if runAgain.lower() == "y":
